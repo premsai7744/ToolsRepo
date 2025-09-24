@@ -29,9 +29,5 @@ public class TestB {
 		assertEquals(expectedResult, actualResult);
 	}
 	
-	@Test
-	public void testArithmeticWithCharacters() {
-		
-	}
 	
 }
