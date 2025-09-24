@@ -12,4 +12,26 @@ public class TestB {
 		int expectedResult = 100;
 		assertEquals(expectedResult, actualResult);
 	}
+	
+	@Test
+	public void testArithmeticWithNegatives() {
+		B b = new B();
+		int actualResult = b.arithmetic(-100, -100);
+		int expectedResult = -200;
+		assertEquals(expectedResult, actualResult);
+	}
+	
+	@Test
+	public void testArithemticWithMixed() {
+		B b = new B();
+		int actualResult = b.arithmetic(-100, 50);
+		int expectedResult = -50;
+		assertEquals(expectedResult, actualResult);
+	}
+	
+	@Test
+	public void testArithmeticWithCharacters() {
+		
+	}
+	
 }
